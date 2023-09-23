@@ -13,12 +13,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.File;
 import java.io.IOException;
 
-import static java.lang.Double.valueOf;
-
 @SpringBootApplication
 public class TeamDashboardApplication implements CommandLineRunner {
 
-    private static Logger LOG = LoggerFactory
+    private static final Logger LOG = LoggerFactory
             .getLogger(TeamDashboardApplication.class);
 
     public static void main(String[] args) {
