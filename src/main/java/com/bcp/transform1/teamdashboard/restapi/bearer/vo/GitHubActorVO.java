@@ -1,4 +1,4 @@
-package com.bcp.transform1.teamdashboard.model;
+package com.bcp.transform1.teamdashboard.restapi.bearer.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,9 +9,9 @@ import lombok.Setter;
 @Getter
 @AllArgsConstructor
 @Data
-public class GitHubUser {
+public class GitHubActorVO {
     private String login;
-    private String id;
-    private String name;
-    private String type;
+    private String type ;
+    private String url;
+
 }
